@@ -1,0 +1,9 @@
+.pokedex-search {
+    margin: 0 auto;
+}
+
+#pokemon-name-search {
+    width: 600px;
+    margin-top: 1.5rem;
+    padding: 1rem;
+}
