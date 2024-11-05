@@ -4,3 +4,21 @@
     text-align: center;
 }
 
+
+.pokemon-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pokemon-list {
+    font-size: 25px;
+    letter-spacing: 0.2rem;
+}
+
+.contols button{
+    padding:  0.5rem 1rem 0.5rem 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
