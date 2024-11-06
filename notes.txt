@@ -1,0 +1,7 @@
+BrowserRouter hamare jo hai ye react router ko pore ki pori application mein enable kar deta hai.
+or jo bhi component BrowserRouter mein add hoga waha waha hamara react router enabled rhe ga.
+<link/> ko hum anchor tag ki tra use kar skte hn. anchor tag multipage apps k liye hota hai or link single page apps k liye
+
+const {id} =useParams();
+
+The useParams hook returns an object of key/value pairs of the dynamic params from the current URL that were matched by the <Route path>.

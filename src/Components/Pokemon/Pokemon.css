@@ -8,6 +8,8 @@
 .pokemon-name {
     font-size: 20px;
     letter-spacing: 0.3rem;
+    color: black;
+    text-decoration: none;
 }
 
 .pokemon-img {

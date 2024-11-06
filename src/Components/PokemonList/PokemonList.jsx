@@ -18,6 +18,7 @@ function PokemonList(){
         setIsLoading(true);
         const response = await axios.get(pokedexUrl); // Data ko download kar rahe hn
         const pokemonResult = response.data.results;
+        console.log(response);
         console.log(response.data);
 
         // console.log(response.data.prev);
@@ -55,7 +56,7 @@ function PokemonList(){
             <div className="pokemon-wrapper">
             {(isLoading) ? "Loading..." : 
                 pokemonList.map((p)=>(
-                    <Pokemon name={p.name} image={p.image} key={p.id}/>
+                    <Pokemon name={p.name} image={p.image} id={p.id} key={p.id}/>
                 ))
             }
             </div>
