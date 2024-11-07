@@ -85,4 +85,4 @@ function PokemonList() {
     );
 }
 
-export default PokemonList;
+export default PokemonList;;
