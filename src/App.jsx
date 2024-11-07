@@ -15,8 +15,7 @@ function App() {
         <Link to="/" className='p-heading'>Pokemon</Link>
       </h1>
       <CustomRoutes />
-      
-      
+
     </div>
   )
 }

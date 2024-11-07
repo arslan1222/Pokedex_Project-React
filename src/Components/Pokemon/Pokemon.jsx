@@ -8,7 +8,6 @@ function Pokemon({ name, image, id }) {
         <div>
           <img src={image} className="pokemon-img" alt={name} />
         </div>
-        <div>{id}</div>
       </Link>
     </div>
   );

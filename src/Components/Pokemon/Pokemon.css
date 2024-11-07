@@ -10,6 +10,7 @@
     letter-spacing: 0.3rem;
     color: black;
     text-decoration: none;
+    text-underline-position: unset;
 }
 
 .pokemon-img {
@@ -20,4 +21,8 @@
 
 .pokemon:hover {
     background-color: beige;
+}
+
+.pokemon a {
+    text-decoration: none;
 }
